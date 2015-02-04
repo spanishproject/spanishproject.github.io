@@ -1,7 +1,37 @@
 body {
-    background-color: lightblue;
+
+    background: url("wallpaper.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   
+   overflow: auto;
 }
 h1 {
-    color: navy;
-    margin-left: 20px;
+	z-index = 10000;
+	margin-left: 70px;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, "Lucida Grande", sans-serif;
+}
+
+p {
+	margin-top: 100px;
+	color: white;
+	font-size: 45px;
+	margin-left: 60px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+}
+
+#topBar{
+	display: inline;
+	vertical-align: top;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-repeat: norepeat;
+    background-image: url("header.jpeg");
 }
