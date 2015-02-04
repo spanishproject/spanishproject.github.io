@@ -17,15 +17,14 @@ h1 {
 }
 
 p {
-	margin-top: 100px;
-	color: white;
-	font-size: 45px;
+	color: lightGrey;
+	font-size: 30px;
 	margin-left: 60px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: 300;
 }
 
-#topBar{
+#topBar {
 	display: inline;
 	vertical-align: top;
     position:fixed;
@@ -34,4 +33,10 @@ p {
     width:100%;
     background-repeat: norepeat;
     background-image: url("header.jpeg");
+}
+
+#caption p {
+	display: block;
+	position: relative;
+	right: -50px;
 }
